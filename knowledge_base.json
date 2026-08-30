@@ -1,0 +1,51 @@
+{
+  "store_name": "Vertex Artisan Coffee",
+  "hours": "Mon-Sun: 7:00 AM - 9:00 PM",
+  "menu": [
+    {
+      "category": "Beverages",
+      "items": [
+        {
+          "name": "Cloud Espresso Roast",
+          "price": "$4.50",
+          "description": "Double shot of single-origin Ethiopian beans with tasting notes of citrus and dark cocoa.",
+          "vegan": true,
+          "caffeine_level": "High"
+        },
+        {
+          "name": "Vanilla Oat Silk Latte",
+          "price": "$5.75",
+          "description": "Smooth espresso combined with house-steamed oat milk and organic Madagascar vanilla.",
+          "vegan": true,
+          "caffeine_level": "Medium"
+        },
+        {
+          "name": "Ceremonial Matcha Green Tea",
+          "price": "$5.25",
+          "description": "Stone-ground Uji matcha whisked with almond or whole milk.",
+          "vegan": true,
+          "caffeine_level": "Low"
+        }
+      ]
+    },
+    {
+      "category": "Pastries & Food",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "price": "$4.00",
+          "description": "Flaky butter croissant filled with sweet almond frangipane and toasted sliced almonds.",
+          "vegan": false,
+          "allergens": ["Gluten", "Nuts", "Dairy"]
+        },
+        {
+          "name": "Vegan Blueberry Scone",
+          "price": "$3.75",
+          "description": "Baked fresh daily with organic blueberries and lemon glaze.",
+          "vegan": true,
+          "allergens": ["Gluten"]
+        }
+      ]
+    }
+  ]
+}
