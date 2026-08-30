@@ -10,7 +10,7 @@ This application serves as an intelligent customer touchpoint (designed as a cof
 
 ## 🚀 Live Demo
 **[https://coffee-barista-agent-965225441717.us-central1.run.app/](https://coffee-barista-agent-965225441717.us-central1.run.app/)**
-
+[View Track 1 Demo pdf](track-1-demo.pdf)
 *(Note: This application was deployed using temporary Google Cloud trial credits. The live server has automatically spun down to prevent billing, but the complete source code, RAG data, and deployment configurations are available in this repository.)*
 
 ## 🚀 Key Architectural Highlights
