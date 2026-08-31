@@ -102,7 +102,7 @@ def chat():
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.6-flash",
             contents=user_msg,
             config=types.GenerateContentConfig(
                 system_instruction=SYSTEM_INSTRUCTION,
@@ -112,7 +112,3 @@ def chat():
         return jsonify({"reply": response.text})
     except Exception as e:
         return jsonify({"reply": f"Service temporarily unavailable: {str(e)}"}), 500
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port)
